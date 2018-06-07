@@ -1,12 +1,14 @@
 package com.android.teaching.chatapp;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 
 public class ChatActivity extends AppCompatActivity {
 
@@ -34,5 +36,12 @@ public class ChatActivity extends AppCompatActivity {
 
         }
         return true;
+    }
+
+
+
+    public void accedermessage(View view) {
+        Intent accedermessage = new Intent(this, NewMessageActivity.class);
+        startActivity(accedermessage);
     }
 }
