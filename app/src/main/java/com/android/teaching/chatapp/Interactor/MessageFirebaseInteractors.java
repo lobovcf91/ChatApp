@@ -42,4 +42,17 @@ public void getMessages (final MessageInteractorCallback callback){
 
 }
 
+ //   public  ArrayList<MessageModel> getGames() {
+ //       return messages;
+//    }
+
+ //   public MessageModel getGameWithId(int id) {
+        //Obtener de games el juego con el identificador id
+  //      for (MessageModel message : messages) {
+ //           if (message.getId() == id) {
+ //               return message;
+  //          }
+   //     }
+   //     return null;
+
 }
